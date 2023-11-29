@@ -1,5 +1,6 @@
 import thingWorker from "./thing.worker.js"
 
+//Demonstration of workers implementation.
 async function main() {
   const thing1 = await thingWorker.doTheThing()
   console.log(thing1)
