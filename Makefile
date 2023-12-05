@@ -6,3 +6,5 @@ test:
 
 publish:
 	cd package && npm publish
+clean:
+	sudo rm -rd build
